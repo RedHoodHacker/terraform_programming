@@ -1,0 +1,19 @@
+Terraform commands: 
+
+
+1st command you should always run: 
+
+terraform init 
+
+terraform init -upgrade (to update said providers)
+
+
+to finally deploy:
+
+terraform apply -auto-approve
+
+to finally destroy:
+
+terraform destroy -auto-approve 
+
+ALWAYS CHECK IF YOU HAVE A RESOURCE BY SAID NAME YOU MAY BE USING.
